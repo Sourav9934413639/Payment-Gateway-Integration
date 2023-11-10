@@ -1,0 +1,35 @@
+#payment_display{
+    height:100vh;
+    width:100%;
+    background-color:#427D9D;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+#payment_display>h1{
+    color:white;
+    font-family:sans-serif;
+}
+#payment_display>p{
+    color:white;
+    font-family:sans-serif;
+    margin:2rem 0;
+    font-size:1rem;
+}
+#payment_display button{
+    padding:1rem 2rem;
+    background-color:blueviolet;
+    border:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    font-family:arial,sans-serif;
+    cursor:pointer;
+    transition: all 0.7s;
+}
+#payment_display button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}

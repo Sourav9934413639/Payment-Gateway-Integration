@@ -1,0 +1,59 @@
+#img_box{
+    height: 4rem;
+    width: 4rem;
+}
+#img_box>img{
+    height: 100%;
+    width: 100%;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    background-color: rgb(57, 100, 100);
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2.5rem;
+}
+nav ul button{
+    padding: 0.5rem 1.5rem;
+    color: white;
+    background-color: #427D9D;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    transition: all 0.4s;
+}
+nav ul button:hover{
+    background-color:blueviolet;
+}
+@media screen and (max-width:400px) {
+    nav{
+        justify-content: space-between;
+    }
+    nav ul{
+        gap: 0.5rem;
+    }
+    nav ul button{
+        padding: 5px 10px;
+        font-size: normal;
+    }
+}
+@media screen and (max-width:300px) {
+    
+    nav ul{
+        gap:5px;
+    }
+    nav ul button{
+        padding: 2px 4px;
+        font-size: small;
+    }
+}

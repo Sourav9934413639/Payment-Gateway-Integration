@@ -8,7 +8,6 @@ const Header = () => {
         <div id='img_box'><img src={logo} alt='graphics'/></div>
         <ul>
             <li><Link to={"/"}><button>Home</button></Link></li>
-            <li><Link to={"/PaymentPage"}><button>Payment</button></Link></li>
         </ul>
     </nav>
   )
